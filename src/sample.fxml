@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="400.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Schronisko">
+   <children>
+      <Button layoutX="157.0" layoutY="62.0" mnemonicParsing="false" onAction="#sprawdzStatus" prefHeight="77.0" prefWidth="92.0" text="Status" />
+      <Button layoutX="294.0" layoutY="62.0" mnemonicParsing="false" onAction="#wyjscie" prefHeight="77.0" prefWidth="92.0" text="Wyjście" />
+      <Button layoutX="14.0" layoutY="62.0" mnemonicParsing="false" onAction="#alarm" prefHeight="77.0" prefWidth="92.0" text="Dodaj Zwierzę" />
+      <Button layoutX="60.0" layoutY="161.0" mnemonicParsing="false" onAction="#odczyt" text="Zaladuj" />
+      <Button layoutX="229.0" layoutY="161.0" mnemonicParsing="false" onAction="#newPage" text="Otwarcie drugiego okna" />
+   </children>
+</Pane>
